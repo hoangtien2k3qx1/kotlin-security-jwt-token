@@ -16,6 +16,6 @@ class WebClientConfig {
 //                        .port(8080) // Port of the service you want to connect to
 //                        .keepAlive(true)
 //                )
-//            )
+//            ) // (Optional) Configure other settings as needed
 //    }
 }

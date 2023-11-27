@@ -8,7 +8,9 @@ import lombok.Setter
 @Getter
 @Setter
 @AllArgsConstructor
-class ResponseMessage {
+class ResponseMessage(
     @Size(min = 10, max = 500)
-    private val message: String? = null
+    val message: String? = null
+) {
+
 }
