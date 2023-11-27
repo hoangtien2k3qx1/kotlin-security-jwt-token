@@ -12,6 +12,13 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
 
+/**
+ * @author: hoangtien2k3
+ * @create: 27/11/2023 - 17:28
+ * @file: SendToken.kt
+ * @update: 27/11/2023
+ * @description: /api/manager
+ */
 @Service
 @RequestMapping("/api/manager")
 class SendToken @Autowired constructor(

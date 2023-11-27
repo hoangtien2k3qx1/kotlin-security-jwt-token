@@ -17,6 +17,13 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import reactor.core.publisher.Mono
 
+/**
+ * @author: hoangtien2k3
+ * @create: 27/11/2023 - 17:28
+ * @file: UserController.kt
+ * @update: 27/11/2023
+ * @description: /api/auth
+ */
 @RestController
 @RequestMapping("/api/auth")
 class UserController {

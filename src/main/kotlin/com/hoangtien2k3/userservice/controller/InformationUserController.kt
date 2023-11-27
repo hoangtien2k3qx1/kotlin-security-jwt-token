@@ -17,6 +17,13 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UsernameNotFoundException
 import org.springframework.web.bind.annotation.*
 
+/**
+ * @author: hoangtien2k3
+ * @create: 27/11/2023 - 17:28
+ * @file: InformationUserController.kt
+ * @update: 27/11/2023
+ * @description:  api/information
+ */
 @RestController
 @RequestMapping("api/information")
 class InformationUserController @Autowired constructor(
